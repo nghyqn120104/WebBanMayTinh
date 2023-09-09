@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    overflow: hidden;
+}
+
+.menu{
+    display: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.header-infor{
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4rem;
+}
+
+.header-infor__title{
+    padding: 8px 0px;
+    flex: 2;
+    text-align: center;
+}
+
+.infor-title--link{
+    display: block;
+    font-size: 3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-infor__input{
+    flex: 3;
+    text-align: center;
+}
+
+.infor-search{
+    width: 70%;
+    height: 70%;
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+}
+
+.search-btn {
+    padding: 6px 12px;
+    border: none;
+    margin-left: -3px;
+    background-color: #ccc;
+}
+
+.search-icon{
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.search-btn:hover .search-icon{
+    font-size: 1.5rem;
+}
+
+.header-infor__contact{
+    text-align: center;
+    flex: 4;
+}
+
+.header-navigators{
+    background-color: #ccc;
+}
+
+.header--forMobile{
+    display: none;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-list__items{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-list__items:hover{
+    background-color: #fff;
+}
+
+.nav-list__items:hover .nav-list__items-link{
+    color: #000;
+}
+
+.nav-list__items-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 8px 0px;
+    display: block;
+}
+
+.banner{
+    position: relative;
+    margin-top: 88px;
+    background-color: #000;
+}
+
+.banner-img{
+    max-width: 1180px;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+.banner-img__asus{
+    max-width: 60%;
+    max-height: 600px;
+    min-height: 155px;
+}
+
+.content{
+    margin-bottom: 36px;
+}
+
+.app-content{
+    padding-top: 45px;
+}
+
+.img-banner{
+    width: 100%;
+    max-height: 430px;
+    border-radius: 4px;
+}
+
+.img-banner:hover{
+    opacity: 0.8;
+}
+
+.product-title{
+    margin: 0px 8px;
+    background-color: #e60000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e60000;
+}
+
+.title-gaming{
+    padding: 8px;
+    text-align: center;
+    min-width: 240px;
+}
+
+.gaming-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    flex: 3;
+    background-color: #fff;
+}
+
+.gaming-list__items-link:hover{
+    right: -5px;
+    color: #e60000;
+}
+
+.gaming-list__items-link{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 1.7rem;
+    position: relative;
+}
+
+.home-product{
+    margin: 0px 8px 10px 8px;
+}
+
+.home-product__item{
+    background-color: #fff;
+    position: relative;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    display: block;
+}
+
+.home-product__item:hover{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.home-product__item--img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 100%;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.home-product__item--img:hover{
+    opacity: 0.5;
+}
+
+.home-product__item--title{
+    color: #000;
+    font-size: 1.4rem;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.home-product__item--title:hover{
+    color: #e60000;
+}
+
+.home-product__item--rateAndguarantee{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-product__item-stars--gold{
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.home-product__item--guarantee-detail{
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.home-product__item--price{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-product__item--price-old{
+    color: #ccc;
+    font-size: 1.6rem;
+    width: 100%;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.home-product__item--price-current{
+    background-color: #e60000;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.home-product__item--price-current:hover{
+    padding: 4px;
+    font-weight: bold;
+}
+
+.home-product__item--bonus{
+    border: 1px solid #e60000;
+    border-radius: 2px;
+    background-color: #eee;
+    margin-top: 5px;
+}
+
+.bonus-detail{
+    color: #e60000;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.bonus-detail:hover{
+    background-color: #fff;
+}
+
+.home-product__item-elements{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-product__item-details{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0px 4px;
+}
+
+.detail{
+    font-size: 1.2rem;
+    margin-left: 5px;
+    color: #000;
+    opacity: 0.4;
+}
+
+.footer{
+    border-top: 4px solid #000;
+    padding-top: 20px;
+}
+
+.footer__heading{
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.footer__list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer__item-link{
+    text-decoration: none;
+    color: #737373;
+    font-size: 1.5rem;
+    padding: 3px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__item-link:hover{
+    color: #e60000;
+}
+
+.footer__item-icon{
+    font-size: 1.5rem;
+    padding-right: 6px;
+}
+
+.footer__bottom{
+    background-color: #f5f5f5;
+    padding: 8px 0px;
+    margin-top: 42px;
+}
+
+.footer__bottom-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer__bottom-item{
+    position: relative;
+    margin: 0px 12px;
+}
+
+.footer__bottom-item:first-child::before{
+    border: none;
+}
+
+.footer__bottom-item::before{
+    content: "";
+    left: -12px;
+    top: -2px;
+    height: 15px;
+    position: absolute;
+    border-left: 1px solid #dbdbdb;
+}
+
+.footer__bottom-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.footer__bottom-policy{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer__bottom-img{
+    width: 160px;
+    object-fit: contain;
+}
+
+.footer__text{
+    margin: 0;
+    text-align: center;
+    padding: 4px 0px;
+    font-size: 1.2rem;
+    color: #737373;
+}
+
+/* Mobile */
+.menu-mobile{
+    width: 50%;
+    display: none;
+    background-color: #737373;
+    min-height: 2000px;
+    animation: Appear ease-in 0.2s;
+    box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.open{
+    display: block;
+}
+
+.menu-item:hover .menu-item-link{
+    color: #000;
+    background-color: #fff;
+}
+
+.menu-item:first-child{
+    margin-top: 0px;
+}
+
+.menu-item-link{
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 12px 8px;
+    text-decoration: none;
+    border-bottom:1px solid #000 ;
+}
+
+.menu-item-link:first-child{
+    margin-top: 0px;
+}
+
+.home-icon{
+    font-size: 2.5rem; 
+}
+
+@keyframes Appear{
+    from{
+        opacity: 0;
+        transform: translateX(-150px);
+    }to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
