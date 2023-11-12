@@ -473,7 +473,7 @@ html{
     justify-content: center;
 }
 
-.open{
+.modal.appear{
     display: flex;
 }
 
@@ -565,7 +565,7 @@ html{
     padding: 8px;
 }
 
-.modal__footer-close{
+#modal__footer-btn--close{
     background-color: #f44336;
     color: #fff;
     padding: 8px 16px;
@@ -574,7 +574,7 @@ html{
     font-size: 15px;
 }
 
-.modal__footer-close:hover{
+#modal__footer-btn--close:hover{
     background-color: #dbdbdb;
     color: #e60000;
 }
