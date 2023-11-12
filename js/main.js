@@ -63,6 +63,8 @@ for(let i=0;i<proDuctItems.length;i++){
             // console.log(e.target.nextElementSibling.nextElementSibling.nextElementSibling.children[1].textContent);
             showModal();
             if(checkshowModal()){
+                lapTopType.readOnly=true;
+                lapTopPrice.readOnly=true;
                 lapTopType.value=e.target.nextElementSibling.textContent;
                 lapTopPrice.value=e.target.nextElementSibling.nextElementSibling.nextElementSibling.children[1].textContent;
             }
