@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-.main{
+.main {
     overflow: hidden;
 }
 
-.menu{
+.menu {
     display: none;
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     right: 0;
@@ -26,7 +26,7 @@ html{
     z-index: 1;
 }
 
-.header-infor{
+.header-infor {
     background-color: #000;
     display: flex;
     color: #fff;
@@ -35,25 +35,25 @@ html{
     font-size: 1.4rem;
 }
 
-.header-infor__title{
+.header-infor__title {
     padding: 8px 0px;
     flex: 2;
     text-align: center;
 }
 
-.infor-title--link{
+.infor-title--link {
     display: block;
     font-size: 3rem;
     color: #fff;
     text-decoration: none;
 }
 
-.header-infor__input{
+.header-infor__input {
     flex: 3;
     text-align: center;
 }
 
-.infor-search{
+.infor-search {
     width: 70%;
     height: 70%;
     border: none;
@@ -68,49 +68,49 @@ html{
     background-color: #ccc;
 }
 
-.search-icon{
+.search-icon {
     color: #fff;
     font-size: 1.4rem;
 }
 
-.search-btn:hover .search-icon{
+.search-btn:hover .search-icon {
     font-size: 1.5rem;
 }
 
-.header-infor__contact{
+.header-infor__contact {
     text-align: center;
     flex: 4;
 }
 
-.header-navigators{
+.header-navigators {
     background-color: #ccc;
 }
 
-.header--forMobile{
+.header--forMobile {
     display: none;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
 }
 
-.nav-list__items{
+.nav-list__items {
     flex: 1;
     text-align: center;
 }
 
-.nav-list__items:hover{
+.nav-list__items:hover {
     background-color: #fff;
 }
 
-.nav-list__items:hover .nav-list__items-link{
+.nav-list__items:hover .nav-list__items-link {
     color: #000;
 }
 
-.nav-list__items-link{
+.nav-list__items-link {
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
@@ -118,43 +118,43 @@ html{
     display: block;
 }
 
-.banner{
+.banner {
     position: relative;
     margin-top: 88px;
     background-color: #000;
 }
 
-.banner-img{
+.banner-img {
     max-width: 1180px;
     margin: 0px 100px;
     text-align: center;
 }
 
-.banner-img__asus{
+.banner-img__asus {
     max-width: 60%;
     max-height: 600px;
     min-height: 155px;
 }
 
-.content{
+.content {
     margin-bottom: 36px;
 }
 
-.app-content{
+.app-content {
     padding-top: 45px;
 }
 
-.img-banner{
+.img-banner {
     width: 100%;
     max-height: 430px;
     border-radius: 4px;
 }
 
-.img-banner:hover{
+.img-banner:hover {
     opacity: 0.8;
 }
 
-.product-title{
+.product-title {
     margin: 0px 8px;
     background-color: #e60000;
     border-top-left-radius: 5px;
@@ -166,13 +166,13 @@ html{
     border-bottom: 2px solid #e60000;
 }
 
-.title-gaming{
+.title-gaming {
     padding: 8px;
     text-align: center;
     min-width: 240px;
 }
 
-.gaming-list{
+.gaming-list {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -181,12 +181,12 @@ html{
     background-color: #fff;
 }
 
-.gaming-list__items-link:hover{
+.gaming-list__items-link:hover {
     right: -5px;
     color: #e60000;
 }
 
-.gaming-list__items-link{
+.gaming-list__items-link {
     display: block;
     text-decoration: none;
     color: #000;
@@ -195,11 +195,11 @@ html{
     position: relative;
 }
 
-.home-product{
+.home-product {
     margin: 0px 8px 10px 8px;
 }
 
-.home-product__item{
+.home-product__item {
     background-color: #fff;
     position: relative;
     text-decoration: none;
@@ -208,11 +208,11 @@ html{
     display: block;
 }
 
-.home-product__item:hover{
+.home-product__item:hover {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-.home-product__item--img{
+.home-product__item--img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -221,11 +221,11 @@ html{
     border-top-left-radius: 2px;
 }
 
-.home-product__item--img:hover{
+.home-product__item--img:hover {
     opacity: 0.5;
 }
 
-.home-product__item--title{
+.home-product__item--title {
     color: #000;
     font-size: 1.4rem;
     text-align: justify;
@@ -235,32 +235,32 @@ html{
     overflow: hidden;
 }
 
-.home-product__item--title:hover{
+.home-product__item--title:hover {
     color: #e60000;
 }
 
-.home-product__item--rateAndguarantee{
+.home-product__item--rateAndguarantee {
     margin-top: 2px;
     display: flex;
     justify-content: space-between;
 }
 
-.home-product__item-stars--gold{
+.home-product__item-stars--gold {
     color: gold;
     font-size: 1.2rem;
 }
 
-.home-product__item--guarantee-detail{
+.home-product__item--guarantee-detail {
     color: #000;
     font-size: 1.2rem;
 }
 
-.home-product__item--price{
+.home-product__item--price {
     display: flex;
     flex-wrap: wrap;
 }
 
-.home-product__item--price-old{
+.home-product__item--price-old {
     color: #ccc;
     font-size: 1.6rem;
     width: 100%;
@@ -268,7 +268,7 @@ html{
     font-weight: 500;
 }
 
-.home-product__item--price-current{
+.home-product__item--price-current {
     background-color: #e60000;
     color: #fff;
     border-radius: 20px;
@@ -277,19 +277,19 @@ html{
     text-align: center;
 }
 
-.home-product__item--price-current:hover{
+.home-product__item--price-current:hover {
     padding: 4px;
     font-weight: bold;
 }
 
-.home-product__item--bonus{
+.home-product__item--bonus {
     border: 1px solid #e60000;
     border-radius: 2px;
     background-color: #eee;
     margin-top: 5px;
 }
 
-.bonus-detail{
+.bonus-detail {
     color: #e60000;
     font-size: 1.1rem;
     font-weight: 300;
@@ -298,48 +298,48 @@ html{
     text-transform: uppercase;
 }
 
-.bonus-detail:hover{
+.bonus-detail:hover {
     background-color: #fff;
 }
 
-.home-product__item-elements{
+.home-product__item-elements {
     margin-top: 8px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.home-product__item-details{
+.home-product__item-details {
     display: flex;
     align-items: center;
     width: 50%;
     padding: 0px 4px;
 }
 
-.detail{
+.detail {
     font-size: 1.2rem;
     margin-left: 5px;
     color: #000;
     opacity: 0.4;
 }
 
-.footer{
+.footer {
     border-top: 4px solid #000;
     padding-top: 20px;
 }
 
-.footer__heading{
+.footer__heading {
     margin: 10px 0px;
     font-size: 1.5rem;
     text-transform: uppercase;
 }
 
-.footer__list{
+.footer__list {
     list-style-type: none;
     padding-left: 0px;
 }
 
-.footer__item-link{
+.footer__item-link {
     text-decoration: none;
     color: #737373;
     font-size: 1.5rem;
@@ -348,37 +348,37 @@ html{
     align-items: center;
 }
 
-.footer__item-link:hover{
+.footer__item-link:hover {
     color: #e60000;
 }
 
-.footer__item-icon{
+.footer__item-icon {
     font-size: 1.5rem;
     padding-right: 6px;
 }
 
-.footer__bottom{
+.footer__bottom {
     background-color: #f5f5f5;
     padding: 8px 0px;
     margin-top: 42px;
 }
 
-.footer__bottom-list{
+.footer__bottom-list {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-.footer__bottom-item{
+.footer__bottom-item {
     position: relative;
     margin: 0px 12px;
 }
 
-.footer__bottom-item:first-child::before{
+.footer__bottom-item:first-child::before {
     border: none;
 }
 
-.footer__bottom-item::before{
+.footer__bottom-item::before {
     content: "";
     left: -12px;
     top: -2px;
@@ -387,24 +387,24 @@ html{
     border-left: 1px solid #dbdbdb;
 }
 
-.footer__bottom-link{
+.footer__bottom-link {
     text-decoration: none;
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
 
-.footer__bottom-policy{
+.footer__bottom-policy {
     text-align: center;
     margin-top: 15px;
 }
 
-.footer__bottom-img{
+.footer__bottom-img {
     width: 160px;
     object-fit: contain;
 }
 
-.footer__text{
+.footer__text {
     margin: 0;
     text-align: center;
     padding: 4px 0px;
@@ -413,7 +413,7 @@ html{
 }
 
 /* Mobile */
-.menu-mobile{
+.menu-mobile {
     width: 50%;
     display: none;
     background-color: #737373;
@@ -428,39 +428,39 @@ html{
     z-index: 2;
 }
 
-.open{
+.open {
     display: block;
 }
 
-.menu-item:hover .menu-item-link{
+.menu-item:hover .menu-item-link {
     color: #000;
     background-color: #fff;
 }
 
-.menu-item:first-child{
+.menu-item:first-child {
     margin-top: 0px;
 }
 
-.menu-item-link{
+.menu-item-link {
     display: block;
     font-weight: bold;
     color: #fff;
     font-size: 1.7rem;
     padding: 12px 8px;
     text-decoration: none;
-    border-bottom:1px solid #000 ;
+    border-bottom: 1px solid #000;
 }
 
-.menu-item-link:first-child{
+.menu-item-link:first-child {
     margin-top: 0px;
 }
 
-.home-icon{
-    font-size: 2.5rem; 
+.home-icon {
+    font-size: 2.5rem;
 }
 
 /* Modal */
-.modal{
+.modal {
     position: fixed;
     top: 0;
     right: 0;
@@ -473,11 +473,11 @@ html{
     justify-content: center;
 }
 
-.modal.appear{
+.modal.appear {
     display: flex;
 }
 
-.modal__container{
+.modal__container {
     min-height: 200px;
     max-width: 900px;
     width: calc(100% - 32px);
@@ -485,7 +485,7 @@ html{
     box-shadow: 0 0 3px;
 }
 
-.modal__header{
+.modal__header {
     position: relative;
     background-color: #737373;
     height: 120px;
@@ -494,49 +494,49 @@ html{
     align-items: center;
 }
 
-.modal__header-close{
+.modal__header-close {
     position: absolute;
     top: 0;
     right: 0;
     padding: 10px;
 }
 
-.modal__header-close:hover{
+.modal__header-close:hover {
     background-color: #dbdbdb;
     color: #fff;
 }
 
-.close-icon{
+.close-icon {
     font-size: 1.8rem;
 }
 
-.modal__header-title{
+.modal__header-title {
     font-size: 2.4rem;
     color: #fff;
 }
 
-.modal__content{
+.modal__content {
     padding: 0px 16px;
     font-size: 1.5rem;
 }
 
-.modal__content-item{
+.modal__content-item {
     display: flex;
     margin: 15px 0px;
     align-items: center;
 }
 
-.modal__content-item--title{
+.modal__content-item--title {
     flex: 1.2;
 }
 
-.modal__content-item--infor{
+.modal__content-item--infor {
     flex: 8;
     padding: 10px;
     border: 1px #ccc solid;
 }
 
-.modal__content--btn-accept{
+.modal__content--btn-accept {
     width: 100%;
     margin: 5px 0px;
     padding: 10px;
@@ -546,12 +546,12 @@ html{
     color: #fff;
 }
 
-.modal__content--btn-accept:hover{
+.modal__content--btn-accept:hover {
     color: #fff;
     background-color: skyblue;
 }
 
-.modal__footer{
+.modal__footer {
     padding: 0px 16px;
     margin: 15px 0px;
     position: relative;
@@ -559,13 +559,13 @@ html{
     min-height: 50px;
 }
 
-.modal__footer-need{
+.modal__footer-need {
     position: absolute;
     right: 16px;
     padding: 8px;
 }
 
-#modal__footer-btn--close{
+#modal__footer-btn--close {
     background-color: #f44336;
     color: #fff;
     padding: 8px 16px;
@@ -574,16 +574,18 @@ html{
     font-size: 15px;
 }
 
-#modal__footer-btn--close:hover{
+#modal__footer-btn--close:hover {
     background-color: #dbdbdb;
     color: #e60000;
 }
 
-@keyframes Appear{
-    from{
+@keyframes Appear {
+    from {
         opacity: 0;
         transform: translateX(-150px);
-    }to{
+    }
+
+    to {
         opacity: 1;
         transform: translateX(0px);
     }

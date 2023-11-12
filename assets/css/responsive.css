@@ -1,18 +1,18 @@
-@media (max-width:739px){
+@media (max-width:739px) {
 
-    .header-infor{
+    .header-infor {
         display: none;
     }
 
-    .header-navigators{
+    .header-navigators {
         display: none;
     }
 
-    .header--forMobile{
+    .header--forMobile {
         display: block;
     }
 
-    .header-wrap{
+    .header-wrap {
         max-height: 52px;
         background-color: #000;
         display: flex;
@@ -20,16 +20,16 @@
         justify-content: space-between;
     }
 
-    .header-element{
+    .header-element {
         padding: 12px;
     }
 
-    .header-element:hover{
+    .header-element:hover {
         background-color: #737373;
         color: #000;
     }
 
-    .header-title--link{
+    .header-title--link {
         display: block;
         font-size: 2.5rem;
         color: #fff;
@@ -38,51 +38,51 @@
     }
 
     .menu-icon,
-    .header-search-btn-icon{
+    .header-search-btn-icon {
         font-size: 2rem;
         color: #fff;
         padding: 4px;
     }
 
-    .nav-list{
+    .nav-list {
         display: none;
     }
 
-    .banner{
+    .banner {
         display: none;
     }
 
-    .content{
+    .content {
         margin-top: 30px;
     }
 
-    .product-title{
+    .product-title {
         margin: 0px 4px;
     }
 
-    .gaming-list{
+    .gaming-list {
         display: none;
     }
 
-    .home-product__item{
+    .home-product__item {
         width: 98%;
     }
 
-    .bonus-detail{
+    .bonus-detail {
         font-size: 1rem;
     }
 
-    .modal__content-item--title{
+    .modal__content-item--title {
         flex: 2;
     }
 
-    .modal__content-item--infor{
+    .modal__content-item--infor {
         flex: 6;
     }
 }
 
-@media (min-width:740px){
-    .menu-mobile{
+@media (min-width:740px) {
+    .menu-mobile {
         display: none;
     }
 }
